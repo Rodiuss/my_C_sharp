@@ -1,7 +1,7 @@
 ﻿Console.Write("Введите число: ");
-string number = Console.ReadLine();
+string? number = Console.ReadLine();
 
-int length = number.Length;
+int length = number!.Length;
 
 int result = 0;
 

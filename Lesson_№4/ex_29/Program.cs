@@ -17,7 +17,7 @@ for (int i = 0; i < numbers?.Length + 1; i++)
 {
     try // Это костыль, нужный для записи последнего числа
     {
-        if (numbers[i] != ',' && numbers[i] != ' ') result += Convert.ToString(numbers[i]);
+        if (numbers![i] != ',' && numbers[i] != ' ') result += Convert.ToString(numbers[i]);
         else if (numbers[i] == ',')
         {
             list[list_index] = result;
